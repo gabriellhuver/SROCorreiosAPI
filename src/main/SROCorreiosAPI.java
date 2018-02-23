@@ -14,9 +14,6 @@ import util.PostBuilder;
  *          Correios
  * @see <a> https://github.com/gabriellhuver/SROCorreiosAPI <a>
  *      {@link} https://github.com/gabriellhuver/SROCorreiosAPI
- *      
- *      Donate bitcoins: 1BseU69CoQnSMDWc24Qnzq31s4qMh348v6
- *      
  */
 
 public class SROCorreiosAPI {
@@ -38,12 +35,6 @@ public class SROCorreiosAPI {
 			e.printStackTrace();
 		}
 		return response;
-	}
-	
-	public static void main(String[] args) {
-		System.out.println("Created By Gabriell H.");
-		System.out.println("22/2/2018");
-		System.out.println("Donate bitcoins: 1BseU69CoQnSMDWc24Qnzq31s4qMh348v6");
 	}
 
 }
