@@ -1,4 +1,4 @@
-package util;
+package br.com.SROCorreiosAPI.util;
 
 public class PostBuilder {
 	

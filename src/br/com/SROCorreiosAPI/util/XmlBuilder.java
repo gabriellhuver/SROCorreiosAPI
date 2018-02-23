@@ -1,4 +1,4 @@
-package util;
+package br.com.SROCorreiosAPI.util;
 
 import java.io.IOException;
 import java.util.UUID;

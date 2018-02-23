@@ -1,4 +1,4 @@
-package net;
+package br.com.SROCorreiosAPI.net;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class doPost {
+public class DoPost {
 
 	public static URLConnection createURLConnection() throws IOException {
 		URL url = new URL("http://webservice.correios.com.br/service/rastro");
@@ -24,8 +24,8 @@ public class doPost {
 		conn.setRequestProperty("Accept-Encoding", "gzip,deflate");
 		conn.setRequestProperty("User-Agent", "Jakarta Commons-HttpClient/3.1");
 	}
-
-	public static String DoPost(URLConnection conn, OutputStreamWriter wr, String xml) throws IOException {
+	
+	public static String doPost(URLConnection conn, OutputStreamWriter wr, String xml) throws IOException {
 		String msgRetorno = "";
 		wr.write(xml);
 		wr.flush();
