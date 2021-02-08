@@ -74,12 +74,5 @@ public class SROCorreiosAPI {
 		}
 		return document; 
 	}
-	
-	
-	public static void main(String[] args) {
-		System.out.println("Created By Gabriell H.");
-		System.out.println("22/2/2018");
-		System.out.println("Donate bitcoins: 1BseU69CoQnSMDWc24Qnzq31s4qMh348v6");
-	}
 
 }
